@@ -17,6 +17,8 @@ struct Node {
     {}
 };
 
+const int helper(const Node*);
+
 /**
  * @brief Returns true if all paths from leaves to root are the same length (height),
  *        and false otherwise
